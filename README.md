@@ -20,7 +20,7 @@ mvn spring-boot:run
 
 ### create transaction
 ```shell
-curl -H "Content-Type: application/json" -X POST -d '{"timestamp":14555111561, "amount": 15.1}' https://limitless-eyrie-62392.herokuapp.com/transactions
+curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -d '{"amount": 8550.5, "timestamp": 1489960451087}' "https://limitless-eyrie-62392.herokuapp.com/transactions"
 ```
 
 ### check statistic last 60 sec
