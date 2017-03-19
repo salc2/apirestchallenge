@@ -1,5 +1,5 @@
 # API REST Challenge
-REST API Using HSQL for persistence and Hazelcast for in-memory statistic store
+REST API using Spring Boot, HSQL for persistence and Hazelcast for in-memory statistic store
 
 ## build and run tests
 
