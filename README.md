@@ -15,15 +15,15 @@ mvn spring-boot:run
 
 
 ## live demo on Heroku
-`http://blabla`
+`https://limitless-eyrie-62392.herokuapp.com/`
 > NOTE: It is possible that app would be in idle state, so first request could take a little.
 
 ### create transaction
 ```shell
-curl -H "Content-Type: application/json" -X POST -d '{"timestamp":14555111561, "amount": 15.1}' http://blabla/transactions
+curl -H "Content-Type: application/json" -X POST -d '{"timestamp":14555111561, "amount": 15.1}' https://limitless-eyrie-62392.herokuapp.com/transactions
 ```
 
 ### check statistic last 60 sec
 ```shell
-curl -X GET http://blabla/statistics
+curl -X GET https://limitless-eyrie-62392.herokuapp.com/statistics
 ```
