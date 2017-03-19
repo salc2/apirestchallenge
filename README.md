@@ -16,6 +16,7 @@ mvn spring-boot:run
 
 ## live demo on Heroku
 `http://blabla`
+> NOTE: It is possible that app would be in idle state, so first request could take a little.
 
 ### create transaction
 ```shell
